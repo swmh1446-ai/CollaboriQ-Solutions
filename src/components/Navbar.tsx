@@ -20,13 +20,13 @@ export const Navbar: React.FC<NavbarProps> = () => {
       }
 
       // Track active section for indicator
-      const sections = ['hero', 'services', 'modules', 'implementation', 'lifecycle', 'partners', 'why-us', 'about', 'contact'];
+      const sections = ['hero', 'services', 'modules', 'implementation', 'lifecycle', 'delivered-services', 'partners', 'why-us', 'about', 'contact'];
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
         if (el) {
           const rect = el.getBoundingClientRect();
           if (rect.top <= 140 && rect.bottom >= 140) {
-            setActiveSection(sectionId);
+            setActiveSection(sectionId === 'partners' ? 'delivered-services' : sectionId);
             break;
           }
         }
@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
     { label: 'Services', href: '#services', id: 'services' },
     { label: 'SuccessFactors', href: '#modules', id: 'modules' },
     { label: 'Implementation', href: '#implementation', id: 'implementation' },
-    { label: 'Partners', href: '#partners', id: 'partners' },
+    { label: 'Delivered Services', href: '#delivered-services', id: 'delivered-services' },
     { label: 'Why Us', href: '#why-us', id: 'why-us' },
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Contact', href: '#contact', id: 'contact' },

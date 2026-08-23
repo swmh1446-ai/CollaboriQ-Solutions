@@ -5,7 +5,7 @@ import { ServicesSection } from './components/ServicesSection';
 import { SuccessFactorsModules } from './components/SuccessFactorsModules';
 import { ImplementationProcess } from './components/ImplementationProcess';
 import { HrEcosystemFlow } from './components/HrEcosystemFlow';
-import { PartnerNetwork } from './components/PartnerNetwork';
+import { DeliveredServicesSection } from './components/DeliveredServicesSection';
 import { WhyCollaboriQ } from './components/WhyCollaboriQ';
 import { AboutSection } from './components/AboutSection';
 import { ContactSection } from './components/ContactSection';
@@ -70,8 +70,8 @@ export default function App() {
         {/* 5. Connected HR Lifecycle Journey */}
         <HrEcosystemFlow />
 
-        {/* 6. Partner & Collaboration Network */}
-        <PartnerNetwork />
+        {/* 6. Delivered SAP SuccessFactors Services */}
+        <DeliveredServicesSection />
 
         {/* 7. Why CollaboriQ Solutions */}
         <WhyCollaboriQ />

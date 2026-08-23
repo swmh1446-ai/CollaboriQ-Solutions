@@ -13,13 +13,13 @@ export const Footer: React.FC = () => {
   const quickLinks = [
     { label: 'Home', href: '#hero' },
     { label: 'Services', href: '#services' },
-    { label: 'SuccessFactors', href: '#modules' },
-    { label: 'Implementation', href: '#implementation' },
-    { label: 'Lifecycle', href: '#lifecycle' },
-    { label: 'Partners', href: '#partners' },
-    { label: 'Why Us', href: '#why-us' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'SuccessFactors Modules', href: '#modules' },
+    { label: '7-Step Implementation', href: '#implementation' },
+    { label: 'Connected Lifecycle', href: '#lifecycle' },
+    { label: 'Delivered Services', href: '#delivered-services' },
+    { label: 'Why CollaboriQ', href: '#why-us' },
+    { label: 'About Us', href: '#about' },
+    { label: 'Contact Us', href: '#contact' },
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

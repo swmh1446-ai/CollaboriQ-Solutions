@@ -26,6 +26,16 @@ export interface ServiceItem {
   deliverables: string[];
 }
 
+export interface DeliveredOrganization {
+  id: string;
+  name: string;
+  website: string;
+  domainName: string;
+  serviceCategory: string;
+  initials: string;
+  accentColor: string;
+}
+
 export interface PartnerCompany {
   id: string;
   name: string;

@@ -378,48 +378,66 @@ export const SERVICES_LIST: ServiceItem[] = [
   }
 ];
 
-export const PARTNER_COMPANIES: PartnerCompany[] = [
+export interface DeliveredOrganization {
+  id: string;
+  name: string;
+  website: string;
+  domainName: string;
+  serviceCategory: string;
+  initials: string;
+  accentColor: string;
+}
+
+export const DELIVERED_ORGANIZATIONS: DeliveredOrganization[] = [
   {
     id: 'eidea',
     name: 'eIDEA',
     website: 'https://eideainc.com/',
     domainName: 'eideainc.com',
-    description: 'Enterprise technology and service collaboration',
-    collaborationFocus: 'Technology and services collaboration for enterprise systems'
+    serviceCategory: 'Implementation, Integration & Support',
+    initials: 'eI',
+    accentColor: '#FFB800'
   },
   {
     id: 'affy-cloud',
     name: 'Affy Cloud',
     website: 'https://affyclouditsolutions.com/',
     domainName: 'affyclouditsolutions.com',
-    description: 'Enterprise technology and service collaboration',
-    collaborationFocus: 'Cloud services and enterprise technology collaboration'
+    serviceCategory: 'Implementation, Integration & Support',
+    initials: 'AC',
+    accentColor: '#42B900'
   },
   {
     id: 'eim',
     name: 'EIM',
     website: 'https://eimsolutions.com/',
     domainName: 'eimsolutions.com',
-    description: 'Enterprise technology and service collaboration',
-    collaborationFocus: 'Enterprise information management and service collaboration'
+    serviceCategory: 'Implementation, Integration & Support',
+    initials: 'EIM',
+    accentColor: '#F4510B'
   },
   {
     id: 'dmtech',
     name: 'DMTech',
     website: 'https://dmtech.me/',
     domainName: 'dmtech.me',
-    description: 'Enterprise technology and service collaboration',
-    collaborationFocus: 'Digital technology consulting and services collaboration'
+    serviceCategory: 'Implementation, Integration & Support',
+    initials: 'DMT',
+    accentColor: '#0875E1'
   },
   {
     id: 'apratim',
     name: 'Apratim Solutions',
     website: 'https://apratimsolutions.com/',
     domainName: 'apratimsolutions.com',
-    description: 'Enterprise technology and service collaboration',
-    collaborationFocus: 'Enterprise solutions and technology services collaboration'
+    serviceCategory: 'Implementation, Integration & Support',
+    initials: 'AS',
+    accentColor: '#42B900'
   }
 ];
+
+// Retain alias for any legacy references
+export const PARTNER_COMPANIES = DELIVERED_ORGANIZATIONS;
 
 export const WHY_COLLABRIQ: WhyUsCard[] = [
   {
