@@ -417,15 +417,6 @@ export const DELIVERED_ORGANIZATIONS: DeliveredOrganization[] = [
     accentColor: '#F4510B'
   },
   {
-    id: 'dmtech',
-    name: 'DMTech',
-    website: 'https://dmtech.me/',
-    domainName: 'dmtech.me',
-    serviceCategory: 'Implementation, Integration & Support',
-    initials: 'DMT',
-    accentColor: '#0875E1'
-  },
-  {
     id: 'apratim',
     name: 'Apratim Solutions',
     website: 'https://apratimsolutions.com/',

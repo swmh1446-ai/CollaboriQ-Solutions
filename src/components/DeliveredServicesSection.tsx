@@ -28,8 +28,8 @@ export const DeliveredServicesSection: React.FC = () => {
           </p>
         </div>
 
-        {/* 5 Premium Company Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 sm:gap-6">
+        {/* 4 Premium Company Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {DELIVERED_ORGANIZATIONS.map((org, idx) => {
             return (
               <div
