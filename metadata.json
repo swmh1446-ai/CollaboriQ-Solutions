@@ -1,0 +1,6 @@
+{
+  "name": "CollaboriQ Solutions",
+  "description": "Complete end-to-end SAP SuccessFactors implementation services across core HR, talent acquisition, learning, payroll, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
