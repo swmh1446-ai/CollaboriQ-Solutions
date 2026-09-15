@@ -160,7 +160,7 @@ export const SuccessFactorsModules: React.FC<SuccessFactorsModulesProps> = ({
               <div
                 key={module.id}
                 id={`module-card-${module.id}`}
-                className={`module-card glass rounded-2xl p-6 border transition-all duration-300 flex flex-col justify-between shadow-xs hover:shadow-xl hover:-translate-y-1 ${
+                className={`module-card glass rounded-2xl p-4 sm:p-5 lg:p-6 border transition-all duration-300 flex flex-col justify-between shadow-xs hover:shadow-xl hover:-translate-y-1 ${
                   theme.border
                 } ${
                   isHighlighted
@@ -174,11 +174,11 @@ export const SuccessFactorsModules: React.FC<SuccessFactorsModulesProps> = ({
               >
                 {/* Module Number badge & Category */}
                 <div>
-                  <div className="flex items-center justify-between gap-2 mb-5">
+                  <div className="flex items-center justify-between gap-2 mb-4 sm:mb-5">
                     <div
-                      className={`w-12 h-12 rounded-xl flex items-center justify-center border transition-all duration-300 ${theme.iconBg}`}
+                      className={`w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center border transition-all duration-300 ${theme.iconBg}`}
                     >
-                      <Icon className="w-6 h-6" />
+                      <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
 
                     <div className="flex flex-col items-end">
@@ -194,7 +194,7 @@ export const SuccessFactorsModules: React.FC<SuccessFactorsModulesProps> = ({
                   </div>
 
                   {/* Module Title */}
-                  <h3 className="text-xl font-bold text-[#102A72] group-hover:text-[#0875E1] transition-colors mb-2.5">
+                  <h3 className="text-lg sm:text-xl font-bold text-[#102A72] group-hover:text-[#0875E1] transition-colors mb-2 sm:mb-2.5">
                     {module.name}
                   </h3>
 

@@ -408,15 +408,6 @@ export const DELIVERED_ORGANIZATIONS: DeliveredOrganization[] = [
     accentColor: '#42B900'
   },
   {
-    id: 'eim',
-    name: 'EIM',
-    website: 'https://eimsolutions.com/',
-    domainName: 'eimsolutions.com',
-    serviceCategory: 'Implementation, Integration & Support',
-    initials: 'EIM',
-    accentColor: '#F4510B'
-  },
-  {
     id: 'apratim',
     name: 'Apratim Solutions',
     website: 'https://apratimsolutions.com/',

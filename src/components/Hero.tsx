@@ -39,9 +39,9 @@ export const Hero: React.FC<HeroProps> = ({ onSelectModule }) => {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 xl:gap-8 items-center">
           {/* Left Column: Hero Content & CTAs */}
-          <div className="lg:col-span-6 space-y-6 sm:space-y-8 text-center lg:text-left">
+          <div className="xl:col-span-6 space-y-6 sm:space-y-8 text-center xl:text-left">
             {/* Eyebrow Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-pill border-[#0875E1]/20 shadow-xs">
               <span className="w-2 h-2 rounded-full bg-[#0875E1] animate-pulse" />
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectModule }) => {
           </div>
 
           {/* Right Column: Interactive Ecosystem Visualization */}
-          <div className="lg:col-span-6">
+          <div className="xl:col-span-6 w-full">
             <HeroEcosystemVisual onSelectModule={onSelectModule} />
           </div>
         </div>
